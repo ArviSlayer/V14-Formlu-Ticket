@@ -1,0 +1,33 @@
+{
+  "name": "arvis-v14-formlu-ticket",
+  "version": "4.0.0",
+  "description": "ArviS#0011 - V14 Formlu Ticket Sistemi",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+    },
+
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ArviSlayer/V14-Formlu-Ticket.git"
+    },
+
+    "engines": {
+      "node": "16.x"
+    },
+
+    "author": "ArviS#0011",
+    "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/ArviSlayer/V14-Formlu-Ticket/issues"
+    },
+
+    "homepage": "https://github.com/ArviSlayer/V14-Formlu-Ticket#readme",
+    "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "croxydb": "^0.0.7",
+    "discord.js": "^14.0.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.20"
+  }
+}
